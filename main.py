@@ -7,7 +7,7 @@ from configobj import ConfigObj
 from validate import Validator
 from magnet import MagNet3Frames
 
-
+#1.0
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('--phase', dest='phase', default='train',
                     help='train, test, run, interactive')
